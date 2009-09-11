@@ -101,11 +101,8 @@ Since these changes would alter the basic functionality of the plugin, I decided
 from `less-for-rails` are:
 
 * `more` encourages storing **LESS** files in `app/stylesheets` by default (like `sprockets` does for javascript files)
-* `more` retains the directory structire of the **LESS** files, so you can reference files in subfolders
 * `more` allows you to create partials which will only be rendered if included in other files
 * `more` recursively checks included files for modifications during `development`, instead of just checking the main **LESS** file
-* `more` comes with rake tasks and tests
-
 
 Documentation
 =============
